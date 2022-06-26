@@ -22,7 +22,11 @@ export default defineConfig({
       path: "/login",
       component: "./Login",
       hideInBreadcrumb: true, // 在面包屑中隐藏
-      hideInMenu: true  // 隐藏自己和子菜单
+      hideInMenu: true,  // 隐藏自己和子菜单
+      headerRender: false, // 不显示顶栏
+      footerRender: false, // 不显示页脚
+      menuRender: false, // 不显示菜单
+      menuHeaderRender: false, // 不显示菜单的 title 和 logo
     },
     {
       name: "首页",
