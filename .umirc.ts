@@ -21,6 +21,8 @@ export default defineConfig({
       name: "登录页",
       path: "/login",
       component: "./Login",
+      hideInBreadcrumb: true, // 在面包屑中隐藏
+      hideInMenu: true  // 隐藏自己和子菜单
     },
     {
       name: "首页",
