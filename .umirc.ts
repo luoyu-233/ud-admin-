@@ -36,7 +36,6 @@ export default defineConfig({
       path: "/home",
       component: "./Home",
     },
-
     {
       name: "权限演示",
       path: "/access",
