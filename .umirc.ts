@@ -1,6 +1,9 @@
 import { defineConfig } from "@umijs/max";
 
 export default defineConfig({
+  qiankun: {
+    master: {},
+  },
   antd: {},
   access: {},
   model: {},
